@@ -15,7 +15,7 @@
 		"userStatus": "0",
 		"msg": "登陆成功！"
 	}
-http://www.ljabc.com.cn/user/toCourseDetail.html?courseId=691604课程信息如下所示，包含课程名称、视频信息、视频路径等信息。
+[此](http://www.ljabc.com.cn/user/toCourseDetail.html?courseId=691604) 课程信息如下所示，包含课程名称、视频信息、视频路径等信息。
 
 	"isTrainLimit": 0,
 	"result": {
@@ -57,7 +57,7 @@ http://www.ljabc.com.cn/user/toCourseDetail.html?courseId=691604课程信息如�
 	},
 	"isShareCourse": 0,
 	"code": "200"
-其中视频下载链接为http://video.ljabc.com.cn/upload/cdn_video/file_0000008084.mp4?sessionId=EBCB02C992585EFE79C425B24C1F0860&source=0。真实视频链接格式为path+'?sessionId='+sessionId+'&source=0'，找到真实视频链接即可下载视频。
+其中视频下载链接为[http://video.ljabc.com.cn/upload/cdn_video/file_0000008084.mp4?sessionId=EBCB02C992585EFE79C425B24C1F0860&source=0](http://video.ljabc.com.cn/upload/cdn_video/file_0000008084.mp4?sessionId=EBCB02C992585EFE79C425B24C1F0860&source=0)。真实视频链接格式为path+'?sessionId='+sessionId+'&source=0'，找到真实视频链接即可下载视频。
 
 ![photo2](https://github.com/XiaoYiii/scrapySpider/blob/master/photos/photo2.png)
 
