@@ -4,7 +4,9 @@
 
 因为视频为内部专属视频，普通注册用户用浏览器不能观看，找不到相应下载链接。
 
-![photo1](https://github.com/XiaoYiii/scrapySpider/blob/master/photos/photo1.png)后发现通过手机端可以观看，因此模拟模拟手机登陆，采用Charles进行抓包。登陆成功后可获取其sessionId。
+![photo1](https://github.com/XiaoYiii/scrapySpider/blob/master/photos/photo1.png)
+
+后发现通过手机端可以观看，因此模拟模拟手机登陆，采用Charles进行抓包。登陆成功后可获取其sessionId。
 
 	"loginInfo": {
 		"result": "4",
@@ -55,14 +57,16 @@ http://www.ljabc.com.cn/user/toCourseDetail.html?courseId=691604课程信息如�
 	},
 	"isShareCourse": 0,
 	"code": "200"
-其中视频下载链接为http://video.ljabc.com.cn/upload/cdn_video/file_0000008084.mp4?sessionId=EBCB02C992585EFE79C425B24C1F0860&source=0。真实视频链接格式为path+'?sessionId='+sessionId+'&source=0'，找到真实视频链接即可下载视频。![https://github.com/XiaoYiii/scrapySpider/blob/master/photos/photo2.png](photo2)
+其中视频下载链接为http://video.ljabc.com.cn/upload/cdn_video/file_0000008084.mp4?sessionId=EBCB02C992585EFE79C425B24C1F0860&source=0。真实视频链接格式为path+'?sessionId='+sessionId+'&source=0'，找到真实视频链接即可下载视频。
+
+![photo2](https://github.com/XiaoYiii/scrapySpider/blob/master/photos/photo2.png)
 
 ### 2.利用scrapy爬取视频
 
 运行程序`scrapy crawl video`
 
-![https://github.com/XiaoYiii/scrapySpider/blob/master/photos/photo3.png](photo3)
+![photo3](https://github.com/XiaoYiii/scrapySpider/blob/master/photos/photo3.png)
 
 程序根据课程名称创建文件夹，并下载课程视频，视频名称根据视频简介命名。最后成功下载课程中视频，因视频较大，所以没有上传视频到GitHub。
 
-![https://github.com/XiaoYiii/scrapySpider/blob/master/photos/photo4.png](photo4)
+![photo4](https://github.com/XiaoYiii/scrapySpider/blob/master/photos/photo4.png)
