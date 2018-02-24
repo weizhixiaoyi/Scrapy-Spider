@@ -4,7 +4,7 @@
 
 因为视频为内部专属视频，普通注册用户用浏览器不能观看，找不到相应下载链接。
 
-![https://github.com/XiaoYiii/scrapySpider/blob/master/photos/photo1.png](photo1)后发现通过手机端可以观看，因此模拟模拟手机登陆，采用Charles进行抓包。登陆成功后可获取其sessionId。
+![photo1](https://github.com/XiaoYiii/scrapySpider/blob/master/photos/photo1.png)后发现通过手机端可以观看，因此模拟模拟手机登陆，采用Charles进行抓包。登陆成功后可获取其sessionId。
 
 	"loginInfo": {
 		"result": "4",
